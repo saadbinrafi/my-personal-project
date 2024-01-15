@@ -203,7 +203,7 @@ main{
 
 .sponsors-img-conteiner img{
     width: 164px;
-    height: 50;
+    height: 100;
 }
 
 .section-title{
@@ -213,7 +213,89 @@ main{
 }
 
 
+.text-content{
+    font-size: 20px;
+    font-weight: 500;
+    color: #727272;
+}
 
+.featurs{
+    display: flex;
+    margin-top: 130px;
+    justify-content:space-around;
+    
+    
+    
+}
+
+.featurs-img img{
+    height: 90%;
+}
+.featurs .section-titl{
+
+    border-left: 5px solid #FF900E;
+    padding-left: 10px;
+}
+
+.featur-content .cird{
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.section-titl{font-size: 45px;
+font-style: normal;
+font-weight: 700;
+
+}
+
+.cird{
+    max-width: 468px;
+}
+
+.ten-years-badge{
+    
+    border-radius: 10px;
+    background-color: #FF900E;
+    color: aliceblue;
+    max-width: 342;
+    padding: 40px;
+    
+}
+
+.ten-years-badge h2{
+    font-size: 4rem;
+    margin: 0%;
+
+}
+
+
+.footer-pera{
+   
+    color: var(--Dark-02, #424242);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 30px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    
+}
+
+.footer-hed{
+    background: #FFF4E7;
+    border-radius: 8px;
+    height: 70px;
+    margin: 40px 100px;
+
+   
+
+}
 
 
 /* responsiv media queries */
@@ -235,6 +317,10 @@ main{
         align-items: center;
     }
     
+    .featurs{
+        flex-direction: column;
+        align-items: center;
+    }
     .team-content{
         padding-right: 40px;
         padding-left: 40px;
@@ -253,6 +339,16 @@ main{
         flex-direction: column;
         margin-top: 20px;
     }
+
+    .footer-hed{
+        margin:10px 20px ;
+        align-items: center;
+    }
+
+    .footer-pera{
+        padding: 10;
+    }
+
 
 }
 
@@ -280,8 +376,13 @@ main{
         align-items: center;
         
     }
+    .featurs{
+        flex-direction: column;
+        align-items: center;
+    }
 
-        .team-img-conteiner{
+
+    .team-img-conteiner{
         grid-template-columns: 1fr;
     }
 
@@ -302,6 +403,13 @@ main{
         margin-top: 30px;
     }
 
+    .footer-hed{
+        margin:30px 40px ;
+        align-items: center;
 
-}
+    }
 
+    .footer-pera{
+        padding: 20px;}
+
+}   
